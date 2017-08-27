@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>贪吃蛇</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				width: 100%;
+			
+			}
+			.wrap{
+				width: 70%;
+				position: relative;
+				border: 1px solid black;
+				box-shadow: 10px 20px 30px black;
+				margin-top: 50px;
+				left: 10%;
+				background-color: lightgoldenrodyellow;
+			}
+			canvas{
+				width: 100%;
+			}
+			.lose{
+				width: 100%;
+				background-color: rgba(0,0,0,0.3);
+				color: white;
+				position: absolute;
+				height: 100px;
+				text-align: center;
+				line-height: 100px;
+				top: 40%;	
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">		
+			<canvas id="canvas" width="1000" height="600"></canvas>
+	<!--
+    	
+   			<div class="lose">
+			你走路带不带眼的，墙都让你撞坏了？！
+			</div>
+	-->	
+		</div>
+
+	</body>
+	<script src="js/snake.js" type="text/javascript" charset="utf-8"></script>
+</html>
